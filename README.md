@@ -132,11 +132,27 @@
     "timelimit" : null,
     "items" : [ {
       "type" : "textmessage",
-      "content" : "Arbeitsplatz / Zunge / Elefant / ?"
+      "content" : "Gestern war fünf Tage vor Montag. Welcher Tag war Vorgestern?"
     }, {
-      "type" : "textinput",
-      "id" : "frage10"
+      "type" : "multiplechoice",
+      "id" : "frage10",
+      "answers" : [ {
+        "value" : "1",
+        "text" : "Montag"
+      }, {
+        "value" : "2",
+        "text" : "Dienstag",
+      }, {
+        "value" : "3",
+        "text" : "Mittwoch",
+      }, {
+        "value" : "4",
+        "text" : "Donnerstag"
     } ]
+  }, {
+     "type" : "pagestopwatch",
+     "id" : "stopwatch2"
+   } ]
   }, {
     "actions" : [ "continue" ],
     "timelimit" : null,
