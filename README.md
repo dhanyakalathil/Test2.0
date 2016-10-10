@@ -1,5 +1,3 @@
-# Test2.0
-mit timestopper
 {
   "title" : "logisches-schnelles-Denken",
   "pages" : [ {
