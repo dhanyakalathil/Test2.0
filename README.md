@@ -184,10 +184,10 @@
     "timelimit" : null,
     "items" : [ {
       "type" : "image",
-      "path" : "4elephant.jpg"
+      "path" : "5domino.jpg"
     }, {
       "type" : "textmessage",
-      "content" : "Geben Sie die Lösung an."
+      "content" : "Geben SIe die Lösung an."
     }, {
       "type" : "textinput",
       "id" : "frage12"
@@ -195,6 +195,23 @@
    }, {
       "type" : "pagestopwatch",
       "id" : "stopwatch7" 
+    } ]
+  }, {
+    "actions" : [ "continue" ],
+    "timelimit" : null,
+    "items" : [ {
+      "type" : "image",
+      "path" : "4elephant.jpg"
+    }, {
+      "type" : "textmessage",
+      "content" : "Geben Sie die Lösung an."
+    }, {
+      "type" : "textinput",
+      "id" : "frage13"
+     } ]
+   }, {
+      "type" : "pagestopwatch",
+      "id" : "stopwatch8" 
     } ]
   }, {
     "actions" : [ ],
