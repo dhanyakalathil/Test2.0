@@ -187,7 +187,7 @@
       "path" : "5domino.jpg"
     }, {
       "type" : "textmessage",
-      "content" : "Geben SIe die Lösung an."
+      "content" : "Geben Sie die Lösung an."
     }, {
       "type" : "textinput",
       "id" : "frage12"
